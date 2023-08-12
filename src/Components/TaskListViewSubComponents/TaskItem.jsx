@@ -1,13 +1,20 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {} from 'react-bootstrap';
+import {Card, Button} from 'react-bootstrap';
 
-const TaskItem = () => {
+const TaskItem = ({title, description, status}) => {
 
     return (
-        <h3>
-            TaskItem
-        </h3>
+        // card
+        <Card>
+            <Card.Body>
+            <Card.Title>{title}</Card.Title>
+            <Card.Text>{description}</Card.Text>
+            <Card.Text>Status: {status}</Card.Text>
+            <Button variant="primary">Edit</Button>
+            <Button variant="danger">Delete</Button>
+            </Card.Body>
+        </Card>
     )
 }
 

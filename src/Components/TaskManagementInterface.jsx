@@ -3,6 +3,9 @@ import { SearchBar, NotificationIcon, UserProfileDropdown } from './_TaskManagem
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav } from 'react-bootstrap';
 import taskifyZen from '../assets/brand/taskifyzen.png' 
+import notification from '../assets/icons/notification.png'
+import user from '../assets/icons/me2.jpg'
+import mail from '../assets/icons/mail.png'
 import { useNavigate } from "react-router-dom";
 
 const TaskManagementInterface = () => {
@@ -16,20 +19,14 @@ const TaskManagementInterface = () => {
     return (
         <Nav
             activeKey="/"
-            className="w-full py-3 flex items-center justify-around bg-slate-800 text-white text-lg"
+            className="w-full flex items-center text-lg"
         >
-            <Nav.Item onClick={navigateRoot}>
-                <img src={taskifyZen} alt="taskifyZen" className="max-w-[130px] max-h-[65px] w-auto h-auto cursor-pointer"/>
-            </Nav.Item>
-            <Nav.Item>
-                <SearchBar/>
-            </Nav.Item>
-            <div className="py-3 flex items-center">
-                <Nav.Item className=" mr-4 ">
-                    <NotificationIcon/>
-                </Nav.Item>
+
+            <SearchBar/>    
+
+            <div className="w-4/12">
                 <Nav.Item>
-                    <UserProfileDropdown/>
+                    <UserProfileDropdown user={user} notification={notification} mail={mail}/>
                 </Nav.Item>
             </div>
         </Nav>

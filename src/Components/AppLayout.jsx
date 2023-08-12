@@ -8,18 +8,22 @@ import { TaskManagementInterface, Sidebar, Home, Notifications, TaskListView, Ca
 const AppLayout = () => {
 
     return (
-        <Container fluid>
-            <Row>
-                <Col>
-                    <TaskManagementInterface/>
-                </Col>
-            </Row>
+        <Container fluid className="box-border">
             <Row>
                 <Col xs={3}>
                     <Sidebar/>
                 </Col>
-                <Col xs={9}>
-                    <Routing/>
+                <Col xs={9} className="mt-4">
+                    <Row>
+                        <Col>
+                            <TaskManagementInterface/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="h-screen py-4">
+                            <Routing/>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
         </Container>
