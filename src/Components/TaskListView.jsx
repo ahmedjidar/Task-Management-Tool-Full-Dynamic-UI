@@ -1,5 +1,5 @@
 import React from "react";
-import { TaskDetails, TaskFilter, TaskItem, TaskForm } from "./export";
+import { TaskDetails, TaskFilter, TaskItem, TaskForm, TasksLayout } from "./export";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {} from 'react-bootstrap';
 
@@ -7,10 +7,9 @@ const TaskListView = () => {
 
     return (
         <div>
-            <p className="text-2xl text-gray-600 font-bold">Projects</p>
-            <TaskDetails/>
+            <div className="w-full h-96 bg-gray-200 mb-4"><TaskDetails/></div>
+            <TasksLayout/>
             <TaskFilter/>
-            <TaskItem title={"Task 1"} description={"This is a test Task Card."} status={"In Progress"}/>
             <TaskForm/>
         </div>
     )

@@ -1,5 +1,5 @@
 
-import { TaskDetails, TaskFilter, TaskForm, TaskItem } from './TaskListViewSubComponents/exports'
+import { TaskDetails, TaskFilter, TaskForm, TaskItem, TasksLayout } from './TaskListViewSubComponents/exports'
 import TaskManagementInterface from './TaskManagementInterface'
 import Sidebar from './Sidebar'
 import { Home, Notifications, Calender, Portfolio, Goals, Settings, Support, Reports } from './_Sidebar/exports'
@@ -23,6 +23,7 @@ export {
     TaskFilter,
     TaskForm,
     TaskItem,
+    TasksLayout,
     AppLayout,
     Routing
 };
