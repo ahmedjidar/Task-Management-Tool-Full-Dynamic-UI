@@ -11,7 +11,7 @@ const Sidebar = () => {
     const navigateTo = useNavigate()
 
     return (
-        <Nav defaultActiveKey="/" className="flex-column h-screen w-full p-2 bg-gray-50 rounded-lg">
+        <Nav defaultActiveKey="/" className="flex-column min-h-screen w-full p-2 bg-gray-50 rounded-lg">
             <Nav.Link className="flex items-center justify-between">
                 <p className="text-gray-600 text-3xl font-bold mt-4 mb-2">TaskifyZen</p>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 mt-4 mb-2 text-gray-600 hover:text-gray-900">

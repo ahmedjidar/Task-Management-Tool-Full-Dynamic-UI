@@ -6,6 +6,7 @@ import { Home, Notifications, Calender, Portfolio, Goals, Settings, Support, Rep
 import TaskListView from './TaskListView'
 import AppLayout from './AppLayout'
 import Routing from './Routing'
+import taskData from './taskData'
 
 export {
     TaskManagementInterface,
@@ -24,6 +25,7 @@ export {
     TaskForm,
     TaskItem,
     TasksLayout,
+    taskData,
     AppLayout,
     Routing
 };

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Finish Project Proposal",
+    "description": "Complete the project proposal and submit it by the deadline.",
+    "priority": "High",
+    "assignees": ["John Doe", "Jane Smith"],
+    "deadline": "2023-09-15",
+    "tags": ["Proposal", "Project"]
+  },
+  {
+    "id": 2,
+    "title": "Update User Interface",
+    "description": "Revise and improve the user interface based on the feedback.",
+    "priority": "Medium",
+    "assignees": ["Alice Johnson"],
+    "deadline": "2023-09-20",
+    "tags": ["UI", "Design"]
+  },
+  {
+    "id": 3,
+    "title": "Test Backend API",
+    "description": "Write test cases and perform testing for the backend API.",
+    "priority": "Low",
+    "assignees": ["Bob Williams", "Ella Brown"],
+    "deadline": "2023-09-18",
+    "tags": ["Testing", "API"]
+  },
+  {
+    "id": 4,
+    "title": "Prepare Presentation Slides",
+    "description": "Create engaging presentation slides for the upcoming meeting.",
+    "priority": "Medium",
+    "assignees": ["Liam Johnson", "Sophia Miller"],
+    "deadline": "2023-09-22",
+    "tags": ["Presentation", "Meeting"]
+  },
+  {
+    "id": 5,
+    "title": "Review Code Changes",
+    "description": "Review and provide feedback on recent code changes.",
+    "priority": "High",
+    "assignees": ["Oliver Smith"],
+    "deadline": "2023-09-19",
+    "tags": ["Code", "Review"]
+  }
+]
