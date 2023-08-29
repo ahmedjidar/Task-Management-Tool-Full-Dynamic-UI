@@ -1,5 +1,5 @@
 import React from "react";
-import { TaskDetails, TaskFilter, TaskItem, TaskForm, TasksLayout } from "./export";
+import { TaskDetails, TaskFilter, TaskForm, TasksLayout } from "./export";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {} from 'react-bootstrap';
 import { useState } from "react";
@@ -18,8 +18,8 @@ const TaskListView = () => {
                 {selectedTask && <TaskDetails task={selectedTask}/>}
             </section>
             <TasksLayout showDetails={handleComponentDisplay}/>
-            <TaskFilter/>
-            <TaskForm/>
+            {/* <TaskFilter/>
+            <TaskForm/> */}
         </div>
     )
 }

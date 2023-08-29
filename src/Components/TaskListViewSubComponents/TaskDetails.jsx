@@ -8,6 +8,7 @@ const TaskDetails = ({ task }) => {
             <li>Assignees:  {task.assignees.join(", ")}</li>
             <li>Deadline:   {task.deadline}</li>
             <li>Tags:   {task.tags.join(", ")}</li>
+            <li>Status: {task.status}</li>
         </ul>
     )
 }
