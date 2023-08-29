@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <AppLayout/>
-      <h2>This is a message from the Server: {response}</h2>
+      <h2>This is a message from the SB Server: {response}</h2>
     </Router>
   );
 }
