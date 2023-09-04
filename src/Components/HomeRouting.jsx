@@ -1,16 +1,16 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {} from 'react-bootstrap';
-import { Home, Notifications, TaskListView, Calender, Portfolio, Goals, Settings, Support, Reports}
+import { Home, Notifications, TaskListView, Calender, Portfolio, Goals, Settings, Support, Reports }
 from "./export";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const Routing = () => {
+const HomeRouting = () => {
 
     return (
             <Routes>
                 {/* Sidebar Routing */}
-                <Route path="/" exact element={<Home/>}/>
+                <Route path="/home" exact element={<Home/>}/>
                 <Route path="/notifications" element={<Notifications/>}/>
                 <Route path="/projects" element={<TaskListView/>}/>
                 <Route path="/calender" element={<Calender/>}/>
@@ -24,4 +24,4 @@ const Routing = () => {
     );
 }
 
-export default Routing;
+export default HomeRouting;

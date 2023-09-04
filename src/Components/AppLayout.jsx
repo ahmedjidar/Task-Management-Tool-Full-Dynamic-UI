@@ -2,8 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { TaskManagementInterface, Sidebar, Home, Notifications, TaskListView, Calender,
-         Portfolio, Goals, Settings, Support, Reports, Routing} from "./export";
+import { TaskManagementInterface, Sidebar, HomeRouting} from "./export";
 
 const AppLayout = () => {
 
@@ -21,7 +20,7 @@ const AppLayout = () => {
                     </Row>
                     <Row>
                         <Col className="h-screen py-4">
-                            <Routing/>
+                            <HomeRouting/>
                         </Col>
                     </Row>
                 </Col>

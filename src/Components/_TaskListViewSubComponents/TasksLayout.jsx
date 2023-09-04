@@ -136,16 +136,3 @@ const TasksLayout = ({ showDetails }) => {
 export default TasksLayout;
 
 
-// import React from "react";
-// import { Container, Row, Col } from 'react-bootstrap';
-// import TaskItem from "./TaskItem";
-// import taskData from "../taskData";
-// import {DragDropContext, Droppable, Draggable} from 'react-beautiful-dnd';
-// import { useState } from "react";
-
-
-// const TasksLayout = ({ showDetails }) => {
-
-//     const [tasks, updateTasks] = useState(taskData);
-
-// };

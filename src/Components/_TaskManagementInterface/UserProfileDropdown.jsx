@@ -43,23 +43,23 @@ const UserProfileDropdown = ({user, notification, mail}) => {
                         <img src={user} alt="user" className="rounded"/>
                     </NavDropdown.Header>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="/portfolio">
+                    <NavDropdown.Item href="/username/portfolio">
                         My Profile
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/portfolio">
+                    <NavDropdown.Item href="/username/portfolio">
                         Edit Profile
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/inbox">
+                    <NavDropdown.Item href="/username/inbox">
                         Inbox
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/settings">
+                    <NavDropdown.Item href="/username/settings">
                         Settings
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/support">
+                    <NavDropdown.Item href="/username/support">
                         Help
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#">
+                    <NavDropdown.Item href="/getting-started">
                         Logout
                     </NavDropdown.Item>
                 </NavDropdown>
