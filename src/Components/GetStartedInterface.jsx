@@ -22,18 +22,18 @@ const GetStartedInterface = () => {
                 ) : (
                     <div className="relative h-full bg-white bg-opacity-50 backdrop-blur-md">
                     {/* navigation bar */}
-                    <Navbar bg="light" data-bs-theme="light" className="py-4 justify-content-between bg-white shadow-sm">
+                    <Navbar bg="light" data-bs-theme="light" className="py-4 px-20 justify-content-between bg-white shadow-sm">
                         <Container>
-                        <Navbar.Brand href="/" className="text-3xl font-bold">TaskifyZen</Navbar.Brand>
-                        <Nav className=" gap-12">
-                            <Nav.Link href="/" className="text-lg font-medium">Home</Nav.Link>
-                            <Nav.Link href="#features" className="text-lg font-medium">Features</Nav.Link>
-                            <Nav.Link href="#pricing" className="text-lg font-medium">Resources</Nav.Link>
-                        </Nav>
-                        <div>
-                            <button className="text-lg text-gray-500 font-medium px-4 py-2 active:text-[#FFC700] hover:text-gray-800 outline-none ease-in-out duration-150" variant="">Sign in</button>
-                            <button onClick={navigateToRegistrationView} className="text-lg text-gray-500 font-medium px-4 py-2 active:text-[#FFC700] hover:text-gray-800 outline-none ease-in-out duration-150" variant="">Sign up</button>
-                        </div>
+                            <Navbar.Brand href="/" className="text-3xl font-bold">TaskifyZen</Navbar.Brand>
+                            <Nav className=" gap-12">
+                                <Nav.Link href="/" className="text-lg font-medium">Home</Nav.Link>
+                                <Nav.Link href="#features" className="text-lg font-medium">Features</Nav.Link>
+                                <Nav.Link href="#pricing" className="text-lg font-medium">Resources</Nav.Link>
+                            </Nav>
+                            <div>
+                                <button className="text-lg text-gray-500 font-medium px-4 py-2 active:text-[#FFC700] hover:text-gray-800 outline-none ease-in-out duration-150" variant="">Sign in</button>
+                                <button onClick={navigateToRegistrationView} className="text-lg text-gray-500 font-medium px-4 py-2 active:text-[#FFC700] hover:text-gray-800 outline-none ease-in-out duration-150" variant="">Sign up</button>
+                            </div>
                         </Container>
                     </Navbar>
                     {/* hero */}

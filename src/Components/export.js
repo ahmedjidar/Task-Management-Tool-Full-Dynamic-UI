@@ -5,6 +5,7 @@ import { Home, Notifications, Calender, Portfolio, Goals, Settings, Support, Rep
 import GeneralRoutes from './GeneralRoutes'
 import GetStartedInterface from './GetStartedInterface'
 import RegistrationRouting from './RegistrationRouting'
+import MultiStepRegistration from './MultiStepRegistration'
 import TaskManagementInterface from './TaskManagementInterface'
 import Sidebar from './Sidebar'
 import TaskListView from './TaskListView'
@@ -39,5 +40,6 @@ export {
     AppLayout,
     HomeRouting,
     RegistrationRouting,
+    MultiStepRegistration,
     GeneralRoutes,
 };
